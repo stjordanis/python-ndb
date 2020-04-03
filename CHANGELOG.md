@@ -4,6 +4,21 @@
 
 [1]: https://pypi.org/project/google-cloud-ndb/#history
 
+## [1.2.0](https://www.github.com/googleapis/python-ndb/compare/v1.1.2...v1.2.0) (2020-04-03)
+
+
+### Features
+
+* new `join` argument for `transaction` and related functions ([#381](https://www.github.com/googleapis/python-ndb/issues/381)) ([2c91685](https://www.github.com/googleapis/python-ndb/commit/2c916851d088b650a5d643dc322a4919f456fe05)), closes [#366](https://www.github.com/googleapis/python-ndb/issues/366)
+
+
+### Bug Fixes
+
+* accept `bytes` or `str` as base value for `JsonProperty` ([#380](https://www.github.com/googleapis/python-ndb/issues/380)) ([e7a0c7c](https://www.github.com/googleapis/python-ndb/commit/e7a0c7c8fb7d80f009442f759abadbd336c0c828)), closes [#378](https://www.github.com/googleapis/python-ndb/issues/378)
+* add missing _get_for_dict method ([#368](https://www.github.com/googleapis/python-ndb/issues/368)) ([55b80ff](https://www.github.com/googleapis/python-ndb/commit/55b80ffa086568e8f820f9ab304952bc39383bd8)), closes [#367](https://www.github.com/googleapis/python-ndb/issues/367)
+* empty Entities for optional LocalStructuredProperty fields  ([#370](https://www.github.com/googleapis/python-ndb/issues/370)) ([27a0969](https://www.github.com/googleapis/python-ndb/commit/27a0969982013b37d3f6d8785c3ad127788661f9)), closes [#369](https://www.github.com/googleapis/python-ndb/issues/369)
+* return type in DateTimeProperty._to_base_type docstring ([#371](https://www.github.com/googleapis/python-ndb/issues/371)) ([0c549c8](https://www.github.com/googleapis/python-ndb/commit/0c549c89ff78554c4a4dde40973b503aa741422f))
+
 ### [1.1.2](https://www.github.com/googleapis/python-ndb/compare/v1.1.1...v1.1.2) (2020-03-16)
 
 
